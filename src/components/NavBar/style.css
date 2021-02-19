@@ -1,0 +1,17 @@
+.navbar-custom {
+    background: rgba(4, 23, 71, 1);
+    color: rgba(25, 232, 197, 1);
+    border-bottom: 5px solid white;
+}
+.navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
+    color: rgba(25, 232, 197, 1);
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgba(25, 232, 197, .5);
+}
+.hamburger {
+    background-color: rgba(25, 232, 197, 1);
+    border: solid white;
+    border-radius: 50%;
+}
