@@ -1,27 +1,26 @@
 import React from "react"
-import Portfolio from "../../pages/Portfolio"
-import About from "../../pages/About"
-import Contact from "../../pages/Contact"
+import "./style.css"
+import { Link } from "react-router-dom"
 
 function NavBar() {
     return (
         <>
         <nav className="navbar navbar-expand-lg navbar-custom">
-        <a className="navbar-brand" href={<About/>}>Kevin Willig</a>
+        <Link className="navbar-brand" to="/About">Kevin Willig</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon hamburger"><i className="bi bi-border-width"></i></span>
         </button>
         <section className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href={<About/>}>About</a>
-            </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href={<Portfolio/>}>Portfolio</a>
+            <li className="nav-item">
+              <Link className="nav-link" to="/About" >About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={<Contact/>}>Contact</a>
-            </li> */}
+              <Link className="nav-link" to="/Portfolio">Portfolio</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Contact">Contact</Link>
+            </li>
           </ul>
         </section>
       </nav>

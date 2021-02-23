@@ -1,0 +1,14 @@
+.card {
+    background-color: rgba(4, 23, 71, 1);
+    margin-bottom: 10px;
+    width: 18rem;
+}
+
+.card-title, .card-text, .btn {
+    color: rgba(25, 232, 197, 1);
+}
+
+.card-img-top {
+    padding: 5px;
+    background-color: rgba(25, 232, 197, 1);
+}

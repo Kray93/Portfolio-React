@@ -7,7 +7,7 @@ import "./style.css"
 function About (){
     return (
         <>
-        <NavBar/>
+        <NavBar className="active"/>
         <AboutCard/>
         <Footer/>
         </>

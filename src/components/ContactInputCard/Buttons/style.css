@@ -1,0 +1,15 @@
+.btn {
+    background: rgba(4, 23, 71, 1);
+    color: rgba(25, 232, 197, 1);
+    margin-bottom: 10px;
+}
+.bi-github, .bi-envelope {
+   color: rgba(25, 232, 197, 1); 
+   /* float: right; */
+   text-align: right;
+}
+.bi-linkedin, .bi-file-person {
+   color: rgba(4, 23, 71, 1); 
+   /* float: right; */
+   text-align: right;
+}
